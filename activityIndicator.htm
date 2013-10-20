@@ -1,0 +1,28 @@
+<div data-bb-type="screen" data-bb-effect="fade">
+	
+	<div data-bb-type="title" data-bb-caption="Please wait" data-bb-back-caption="Back" ></div>
+	<script id="AIJS" src="js/AIJS.js"></script>
+	<style>
+		.center { margin: 0px auto 0px auto;}
+	</style>
+	
+	<div style="margin:15px;color:Gray;">
+	
+	
+		<p align="center">
+		Here's an activity indicator while I load <br />       
+		</p>
+		
+	</div>
+	
+	<p>Count numbers: <output id="result"></output></p>
+
+	
+	<div class="center" data-bb-type="activity-indicator" data-bb-size="medium"></div>
+	
+	<div data-bb-type="button" onclick="startWorker()" >Start Counter</div>
+	<div data-bb-type="button" onclick="stopWorker()" >Stop Counter</div>
+	<div data-bb-type="button" onclick="bb.pushScreen('grid.htm', 'mygrid')" id="plain">Click to continue</div>
+	<div data-bb-type="action-bar" data-bb-back-caption="Back"></div>
+
+</div>
